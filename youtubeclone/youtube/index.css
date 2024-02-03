@@ -335,7 +335,7 @@ background-color: rgb(170, 171, 173);
     }
     .shorts{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr ;
         column-gap: 10px;
     }
     
