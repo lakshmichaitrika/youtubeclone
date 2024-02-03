@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+font-family: "Roboto";
+    
+}
+.header-container{
+    display: flex;
+    background-color:white;
+    position: fixed;
+    right: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    height:60px;
+    padding: 10px;
+    z-index: 100;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.center{
+    width: 50%;
+    display: flex;
+    padding: 5px;
+}
+
+.end{
+  
+    width: 15%;
+    display: flex;
+    padding: 10px;
+justify-content: space-around;
+    font-size: 20px;
+    align-items: center;
+
+}
+
+.main-section{
+    padding-top: 60px;
+   
+}
+.side-bar{
+    padding-top: 10px;
+    background-color: white;
+    width: 70px;
+    position:fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    z-index: 50;
+}
+
+.intrest{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 40px;
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+    z-index: 40;
+    background-color: rgb(253, 254, 255);
+   
+}
+
+.container{
+    display: grid;
+    padding-left: 80px;
+    padding-top: 70px;
+}
+
+.s{
+
+padding: 10px;
+}
+.s img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+.logo h1{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.logo p{
+    font-size: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 10px;
+    color: rgb(226, 217, 217);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.search{
+    padding: 10px;
+    width:70% ;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-right-width: 0;
+    border-color: rgb(221, 211, 211);
+}
+.search-icon{
+    padding: 10px;
+    padding-right: 15px;
+    margin-left: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+    background-color: rgb(233, 229, 220);
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border: 1px solid rgb(221, 211, 211);;
+    
+}
+.mic-icon{
+margin-left: 10px;
+background-color: rgb(238, 235, 229);
+padding: 15px;
+border: none;
+border-radius: 30px;
+position: relative;
+}
+
+
+
+
+
+
+
+
+
+.intrest div{
+    padding: 5px;
+   cursor: pointer;
+   transition: background-color 0.1s;
+    background-color: rgb(214, 209, 201);
+   
+    border-style: solid;
+    border-width: 0;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.side-icons{
+    cursor: pointer;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+   width: 100%;
+    padding: 5px;
+    margin-bottom: 4px;
+    transition: background-color 0.15s;
+    font-size: 10px;
+    
+}
+.admin{
+    background-color: blueviolet;
+    padding: 10px;
+    font-size: 12px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 27px;
+}
+.side-icons:hover{
+    padding: 3px;
+    background-color: rgb(194, 194, 179);
+   border-style: solid;
+   border: none;
+   border-radius: 10px;
+}
+.text{
+    display: none;
+}
+.search-icon:hover .text{
+    padding: 5px;
+    display: inline-block;
+    position:absolute;
+    background-color: rgb(136, 134, 131);
+    bottom: -30px;
+    border-style: solid;
+    border-width: 0;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.mic-icon:hover .text{
+    padding: 5px;
+    display: inline-block;
+    position:absolute;
+    background-color: rgb(136, 134, 131);
+    bottom: -30px;
+    
+    border-style: solid;
+    border-width: 0;
+    border-radius: 5px;
+    color: aliceblue;
+   white-space: nowrap;
+
+
+}
+
+
+.Create:hover .text{
+    padding: 5px;
+    display: inline-block;
+    position:absolute;
+    background-color: rgb(136, 134, 131);
+    bottom: -30px;
+    font-size: 12px;
+    border-style: solid;
+    border-width: 0;
+    border-radius: 5px;
+    color: aliceblue;
+    white-space: nowrap;
+
+
+}
+
+.Notification:hover .text{
+    padding: 5px;
+    display: inline-block;
+    position:absolute;
+    background-color: rgb(136, 134, 131);
+    bottom: -30px;
+    font-size: 12px;
+    border-style: solid;
+    border-width: 0;
+    border-radius: 5px;
+    color: aliceblue;
+    white-space: nowrap;
+
+}
+
+
+
+.main-container{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+   
+    column-gap: 10px;
+    row-gap: 10px;
+   
+}
+
+.shorts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    column-gap: 10px;
+}
+
+.video-container{
+    display: flex;
+    flex-direction: column;
+   }
+
+.thumbnail{
+    position: relative;
+}
+.thumbnail img{
+    width: 100%;
+    border-radius: 10px;
+}
+.thumbnail p{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    padding: 4px;
+}
+
+
+.content{
+    display: flex;
+    padding: 5px;
+   
+}
+.content img{
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+
+}
+
+.text-content h1{
+    font-size:1rem;
+}
+
+.channel{
+    margin-right: 4px;
+}
+
+.choices:hover{
+background-color: rgb(170, 171, 173);
+}
+
+@media screen  and (max-width:480px){
+    .main-container{
+        display: grid;
+        grid-template-columns:  1fr  ;
+       
+        column-gap: 10px;
+        row-gap: 10px;
+       
+    }
+    .shorts{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        column-gap: 10px;
+    }
+    
+    
+}
+
+
+
+
+

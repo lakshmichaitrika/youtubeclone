@@ -1,0 +1,153 @@
+ <nav class="intrest">
+            <div class="choices">
+            <p>All</p>    
+            </div>
+            <div class="choices">
+                <p>Mixes</p>    
+                </div>
+                <div class="choices">
+                    <p>Music</p>    
+                </div>
+                <div class="choices">
+                    <p>CSS</p>    
+                    </div>
+                <div class="choices">
+                        <p>Computers</p>    
+                        </div>
+                <div class="choices">
+                <p>Live</p>    
+                </div>   
+            <div class="choices">
+                <p>JavaScript</p>    
+                </div>
+            <div class="choices">
+                <p>Music</p>    
+                </div>
+            <div class="choices">
+                 <p>Mixes</p>    
+            </div>
+            
+           </nav>
+        <div class="container">
+            <div class="main-container">
+                <div class="video-container">
+                    <div class="thumbnail">
+                        <img src="images\ch8th.jpg" alt="thumbail"/>
+                    </div>
+                 <div class="content">
+                   <div class="channel">
+                        <img src="images\ch8.jpg" alt="channel"/>
+                   </div>
+                   <div class="text-content">
+                    <h1>Poolamme Pilla||HanuMan(Telugu)||Prasanth Varma|Teja Sajja,....</h1>
+                    <p>Tips Telugu</p>
+                    <p>1.2M  &check; 2 days ago</p>
+                </div>
+                 </div>
+                  
+                    
+                </div>
+                <div class="video-container">
+                    <div class="thumbnail">
+                        <img src="images\ch7th.jpg" alt="thumbail"/>
+                    </div>
+                 <div class="content">
+                   <div class="channel">
+                        <img src="images\ch7.jpg" alt="channel"/>
+                   </div>
+                   <div class="text-content">
+                    <h1>Filmymoji||Middle Class Madhu Pedda Manishi||MCM</h1>
+                    <p>Filmymoji</p>
+                    <p>1.2M  &check; 23hours ago</p>
+                </div>
+                 </div>
+                  
+                    
+                </div>
+                <div class="video-container">
+                    <div class="thumbnail">
+                        <img src="images\ch6th.jpg" alt="thumbail"/>
+                    </div>
+                 <div class="content">
+                   <div class="channel">
+                        <img src="images\ch6.jpg" alt="channel"/>
+                   </div>
+                   <div class="text-content">
+                    <h1>Filmymoji||Middle Class Madhu Pedda Manishi||MCM</h1>
+                    <p>Filmymoji</p>
+                    <p>1.2M  &check; 23hours ago</p>
+                </div>
+                 </div>
+                  </div>
+                  <div class="video-container">
+                    <div class="thumbnail">
+                        <img src="images\ch5th.jpg" alt="thumbail"/>
+                    </div>
+                 <div class="content">
+                   <div class="channel">
+                        <img src="images\ch5.jpg" alt="channel"/>
+                   </div>
+                   <div class="text-content">
+                    <h1>Filmymoji||Middle Class Madhu Pedda Manishi||MCM</h1>
+                    <p>Filmymoji</p>
+                    <p>1.2M  &check; 23hours ago</p>
+                </div>
+                 </div>
+                  </div>
+                  <div class="video-container">
+                    <div class="thumbnail">
+                        <img src="images\ch4th.jpg" alt="thumbail"/>
+                    </div>
+                 <div class="content">
+                   <div class="channel">
+                        <img src="images\ch4.jpg" alt="channel"/>
+                   </div>
+                   <div class="text-content">
+                    <h1>Filmymoji||Middle Class Madhu Pedda Manishi||MCM</h1>
+                    <p>Filmymoji</p>
+                    <p>1.2M  &check; 23hours ago</p>
+                </div>
+                 </div>
+                  </div>
+                  <div class="video-container">
+                    <div class="thumbnail">
+                        <img src="images\ch3th.webp" alt="thumbail"/>
+                    </div>
+                 <div class="content">
+                   <div class="channel">
+                        <img src="images\ch3.jpg" alt="channel"/>
+                   </div>
+                   <div class="text-content">
+                    <h1>Filmymoji||Middle Class Madhu Pedda Manishi||MCM</h1>
+                    <p>Filmymoji</p>
+                    <p>1.2M  &check; 23hours ago</p>
+                </div>
+                 </div>
+                  </div>
+                
+                </div>
+            <div class="shorts">
+             <div class="s">
+                <img src="images\z5.jpg" alt="shot"/>
+                <h5>dance together #remo #prabhudeva #kailsharma</h5>
+                <p>3.3M views</p> 
+            </div>
+             <div class="s">
+                <img src="images\z4.jpg" alt="shot"/>
+                <h5>Needhe nEEDHE SONG |Hi Nanna |Rithianayak.....</h5>
+                <p>24k views</p>
+            </div>
+             <div class="s">
+                <img src="images\z3.jpg" alt="shot"/>
+                <h5>Programmmers VS software Engineers EXPLAINED</h5>
+                <p>832k views</p>
+             </div>
+             <div class="s">
+                <img src="images\z2.jpg" alt="shot"/>
+                <h5>Penguin Milkshake</h5>
+                <p>73K views</p>
+             </div>
+            </div>
+
+        </div>
+       
